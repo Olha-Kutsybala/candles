@@ -1,0 +1,72 @@
+header {
+  background-color: #fff8f3;
+}
+
+.header__inner {
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__btn {
+  display: none;
+  width: 30px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media screen and(max-width:640px) {
+    display: flex;
+  }
+}
+
+.header__menu {
+  @media screen and(max-width:640px) {
+    order: 1;
+  }
+}
+.menu__btn span {
+  height: 1px;
+  background-color: #7b6152;
+  width: 100%;
+}
+
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+.header__menu-list {
+  @media screen and(max-width:640px) {
+    display: none;
+  }
+}
+
+.menu__list-item {
+  text-transform: uppercase;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/phone.svg);
+  width: 20px;
+  height: 20px;
+  left: -23px;
+  top: -3px;
+
+  @media screen and(max-width:768px) {
+    width: 14px;
+    height: 14px;
+    left: -16px;
+    top: -2px;
+    background-size: cover;
+  }
+}
