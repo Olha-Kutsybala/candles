@@ -1,0 +1,122 @@
+.hero {
+  padding: 40px 0 150px;
+
+  @media screen and(max-width:480px) {
+    padding: 30px 0 50px;
+  }
+}
+
+.hero__inner {
+  position: relative;
+}
+
+.hero__content {
+  width: 370px;
+  padding: 150px 0 250px;
+
+  @media screen and(max-width:1000px) {
+    width: 333px;
+    padding: 95px 0 70px;
+  }
+
+  @media screen and(max-width:768px) {
+    width: 230px;
+  }
+
+  @media screen and(max-width:480px) {
+    width: 180px;
+  }
+
+  @media screen and(max-width:360px) {
+    width: 200px;
+    padding: 20px 0 0;
+  }
+}
+
+.hero__title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 30px;
+  margin-bottom: 15px;
+
+  @media screen and(max-width:768px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and(max-width:480px) {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  @media screen and(max-width:360px) {
+    font-size: 18px;
+  }
+}
+
+.hero__text {
+  margin-bottom: 48px;
+
+  @media screen and(max-width:1000px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and(max-width:768px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and(max-width:480px) {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+
+  @media screen and(max-width:360px) {
+    font-size: 10px;
+  }
+}
+
+.hero__btn {
+  padding: 18px 54px;
+  background-color: #ffbd59;
+  color: #272727;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  font-weight: 600;
+
+  @media screen and(max-width:480px) {
+    font-size: 10px;
+    padding: 14px 41px;
+  }
+}
+
+.hero__img {
+  position: absolute;
+  top: 0;
+  left: 240px;
+
+  @media screen and(max-width:1000px) {
+    left: 300px;
+  }
+
+  @media screen and(max-width:768px) {
+    left: 180px;
+  }
+
+  @media screen and(max-width:360px) {
+    left: auto;
+    right: 0;
+  }
+}
+
+.hero__img-item {
+  @media screen and(max-width:1000px) {
+    width: 655px;
+  }
+
+  @media screen and(max-width:480px) {
+    width: 309px;
+  }
+
+  @media screen and(max-width:360px) {
+    width: 120px;
+  }
+}
